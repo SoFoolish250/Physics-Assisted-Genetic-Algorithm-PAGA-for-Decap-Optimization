@@ -1,8 +1,16 @@
 # Introduction
 This repository includes the source code of the paper “A Novel Physics-Assisted Genetic Algorithm (PAGA) for Decoupling Capacitor Optimization” (to be published in IEEE journal). 
-A physics-assisted genetic algorithm is used to optimize the locations and types of decoupling capacitors in power distribution network.\n
+
+
+A physics-assisted genetic algorithm is used to optimize the locations and types of decoupling capacitors in power distribution network.
+
+
 Some conventional methods are also reproduced with some slight modifications while maintaining their core concepts. These modified methods are also included in this project. 
+
+
 For more details of the algorithm, please refer to the paper "A Novel Physics-Assisted Genetic Algorithm (PAGA) for Decoupling Capacitor Optimization" (to be published in IEEE journal). 
+
+
 	
 # File Structure
 	root directory
