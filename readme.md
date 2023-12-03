@@ -64,7 +64,7 @@ comvergence process of case3 (120 ports in total)
 
 ![](fig-comparison-case3.png)
 
-robustness validation (when number of ports increse)
+robustness validation (when number of ports increase)
 
 ![](fig-robustness.png)
 
