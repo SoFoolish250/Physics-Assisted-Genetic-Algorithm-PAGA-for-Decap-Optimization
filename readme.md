@@ -42,7 +42,33 @@ To perform the PAGA in your own PDN, a Z-parameter matrix needs to be provided t
 # performance
 comvergence process of case1 (120 ports in total)
 
-![fig](fig-comparison-case1.png) 
+![](fig-comparison-case1.png)
+
+comparison of different method (case1)
+
+![](table-comparison-case1.png)
+
+impedance curves of case1
+
+![](fig-impedance-case1.png)
+
+impedance curves of case2
+
+![](fig-impedance-case2.png)
+
+comparison of different method (case2)
+
+![](table-comparison-case2.png)
+
+comvergence process of case3 (120 ports in total)
+
+![](fig-comparison-case3.png)
+
+robustness validation (when number of ports increse)
+
+![](fig-robustness.png)
+
+
 
 # Maintainers
 This project is owned and managed by Li jiang and Ling Zhang from Zhejiang University, China. 
