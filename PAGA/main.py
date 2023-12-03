@@ -321,7 +321,11 @@ if __name__ == '__main__':
     # net_orig = rf.Network('./data/' + Sfilename)
     # z_orig = net_orig.z
     
-    z_orig = np.load('example.npy')
+    
+    # z_orig = np.load('example-case1.npy')
+    # z_orig = np.load('example-case2.npy')
+    z_orig = np.load('example-case3.npy')
+    
     
     
     #########################################################################################
@@ -330,7 +334,9 @@ if __name__ == '__main__':
     # frequency = net_orig.frequency
     # freq = net_orig.frequency.f
     
-    freq = np.load('example-freq.npy')
+    # freq = np.load('example-freq-case1.npy')
+    # freq = np.load('example-freq-case2.npy')
+    freq = np.load('example-freq-case3.npy')
     frequency = rf.Frequency.from_f(freq,unit='Hz')
     
     
@@ -416,7 +422,7 @@ if __name__ == '__main__':
     
     
     ##########################################################################################
-    # 调用GA模型
+    # set up GA model
     ########################################################################################
     model = ga(function=f,
                 dimension=num_ports,
